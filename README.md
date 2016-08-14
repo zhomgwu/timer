@@ -7,7 +7,7 @@ include "timer.h" first, and you must call
 ```
 CTimer::getInstance()->update();
 ```
-in you main loop on you application.
+in your application main loop.
 
 use 
 ```
