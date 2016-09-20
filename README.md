@@ -13,7 +13,7 @@ use
 ```
 CTimer::getInstance()->timeOut(100, timeOutFunc);
 ```
-create a timernode, you can store the return values if you want to stop it before time out, use
+create a timernode, you can store the return values if you want to stop it before time out, like following:
 ```
 CTimer::getInstance()->stop(timernode);
 ```
